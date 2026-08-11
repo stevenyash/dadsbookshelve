@@ -1,0 +1,17 @@
+{
+  "name": "DADS Bookshelves",
+  "short_name": "DBS",
+  "description": "DADS BOOKSHELVES (DBS) - Digital Library",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom DBS Theme */
+@theme {
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  
+  /* Custom colors */
+  --color-dbs-primary: #027be3;
+  --color-dbs-secondary: #26a69a;
+  --color-dbs-accent: #aa3bff;
+}
+
+/* DaisyUI custom theme */
+[data-theme="dbs"] {
+  --p: 213 90% 45%;
+  --pf: 213 90% 35%;
+  --pc: 0 0% 100%;
+  --s: 170 60% 35%;
+  --sf: 170 60% 25%;
+  --sc: 0 0% 100%;
+  --a: 270 65% 55%;
+  --af: 270 65% 45%;
+  --ac: 0 0% 100%;
+  --n: 220 25% 18%;
+  --nf: 220 25% 12%;
+  --nc: 0 0% 98%;
+  --b1: 0 0% 100%;
+  --b2: 220 10% 97%;
+  --b3: 220 10% 94%;
+  --bc: 215 15% 22%;
+  --in: 198 93% 60%;
+  --inc: 198 100% 12%;
+  --su: 158 64% 52%;
+  --suc: 158 100% 10%;
+  --wa: 43 96% 56%;
+  --wac: 43 100% 11%;
+  --er: 0 91% 71%;
+  --erc: 0 100% 14%;
+  --rounded-box: 0.5rem;
+  --rounded-btn: 0.375rem;
+  --rounded-badge: 1rem;
+  --animation-btn: 0.25s;
+  --animation-input: 0.2s;
+  --btn-focus-scale: 0.98;
+  --border-btn: 1px;
+  --tab-border: 1px;
+  --tab-radius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Reader themes */
+.reader-light {
+  background: #ffffff;
+  color: #333333;
+}
+
+.reader-dark {
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+.reader-sepia {
+  background: #f4ecd8;
+  color: #5b4636;
+}

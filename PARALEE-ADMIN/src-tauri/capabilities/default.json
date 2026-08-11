@@ -1,0 +1,28 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "dialog:default",
+    {
+      "identifier": "fs:allow-read",
+      "allow": [{ "path": "$DOWNLOAD/**" }, { "path": "$APPDATA/**" }, { "path": "$TEMP/**" }]
+    },
+    {
+      "identifier": "fs:allow-write",
+      "allow": [{ "path": "$DOWNLOAD/**" }, { "path": "$APPDATA/**" }, { "path": "$TEMP/**" }]
+    },
+    "fs:allow-temp-write",
+    "fs:allow-temp-write-recursive",
+    "fs:allow-temp-read",
+    "fs:allow-temp-read-recursive",
+    "store:default",
+    "notification:default",
+    "shell:allow-execute",
+    "shell:allow-open",
+    "shell:allow-spawn"
+  ]
+}

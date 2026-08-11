@@ -1,0 +1,47 @@
+# IDE
+.idea/
+.vscode/
+
+# Kilo
+.kilo/
+.kilocode/
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+FRONTEND-RTX/dev-dist/
+
+# Environment & secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+
+# Logs
+*.log
+
+# Database dumps
+*.sql
+
+# Legacy / inactive
+old/
+
+# Runtime uploads
+API-PY/assets/uploads/
+
+# Uploaded frontend assets (PDFs, etc.)
+FRONTEND-RTX/src/assets/*.pdf
+FRONTEND-RTX/src/assets/*.webp
+
+# Misc
+nul
